@@ -1,0 +1,25 @@
+body{
+	padding-top:55px;//for fixed top bar
+	width:100%;
+	min-width:940px;
+}
+.statistic td ~ td {
+	text-align:center;
+	width: 115px;
+}
+.statistic th{
+	text-align:center;
+	background-color:#e6eeee;
+}
+.guide {
+	
+	display:none;
+	font-weight:bolder;
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 2px 2px 5px #444;
+	box-shadow: 2px 2px 5px #444;
+	opacity:0.8;
+}
